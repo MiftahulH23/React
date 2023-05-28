@@ -14,8 +14,8 @@ const Navbar = ({props}) => {
                     </ul>
                 </div>
                 <div className="w-[123px] h-[50px] bg-[#1C5067]
-                rounded-[14px] flex justify-center mb-[18px]">
-                    <button className="text-white text-[12px] font-bold">Daftar</button>
+                rounded-[14px] flex mb-[18px]">
+                    <button className="text-white text-[12px] font-bold m-auto">Daftar</button>
                 </div>
             </nav>
         </div>
