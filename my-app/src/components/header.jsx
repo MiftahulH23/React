@@ -24,7 +24,7 @@ const Navbar = ({props}) => {
 
 const JudulCaption = () => {
     return (
-        <div className="grid grid-cols-2 px-[50px]">
+        <div className="flex gap-1 px-[50px]">
             {/* Kiri */}
             <div className="mt-[92px]">
                 <div className="w-[140px] h-[36px] bg-[#e9eef0] rounded-[8px] flex items-center justify-center">
@@ -47,8 +47,40 @@ const JudulCaption = () => {
                 </div>
             </div>
             {/* Kanan */}
-            <div className="mt-[53px] w-[630px] h-[475px] overflow-hidden">
-                <img src="/images/foto.png" alt="profil" className="object-cover"/>
+            <div className="relative mt-[53px]">
+                <div className="w-[700px] h-[475px]">
+                    <img src="/images/foto.png" alt="profil" className="object-cover" width="772" height="475"/>
+                </div>
+                {/* Banner 1 */}
+                <div className="absolute bg-white w-[350px] h-[70px] flex shadow-2xl rounded-[36px] left-1/2 -translate-x-1/2 -top-5">
+                    <div className="mx-10 my-auto ">
+                        <img src="/images/education (1) 1.png" alt="" width="48" height="48"/>
+                    </div>
+                    <div className="my-auto mr-8">
+                        <p className="text-sm text-[#61626A]">Akreditasi</p>
+                        <p className="text-sm text-[#61626A] font-semibold mt-[4px] leading-5">70% Akredetasi Prodi di PCR Sudah Terakreditasi A</p>
+                    </div>
+                </div>
+                {/* Banner 2 */}
+                <div className="absolute bg-white w-[350px] h-[70px] flex shadow-2xl rounded-[36px] -left-14 bottom-32">
+                    <div className="mx-10 my-auto ">
+                        <img src="/images/university 1.png" alt="" width="48" height="48"/>
+                    </div>
+                    <div className="my-auto mr-8">
+                        <p className="text-sm text-[#61626A]">Budaya</p>
+                        <p className="text-sm text-[#61626A] font-semibold mt-[4px] leading-5">Disiplin, Kebersamaan dan cinta lokasi</p>
+                    </div>
+                </div>
+                {/* Banner 3 */}
+                <div className="absolute bg-white w-[350px] h-[70px] flex shadow-2xl rounded-[36px] bottom-16 right-0">
+                    <div className="mx-10 my-auto ">
+                        <img src="/images/id-card 1.png" alt="" width="48" height="48"/>
+                    </div>
+                    <div className="my-auto mr-8">
+                        <p className="text-sm text-[#61626A]">Perkuliahan</p>
+                        <p className="text-sm text-[#61626A] font-semibold mt-[4px] leading-5">70% Kegiatan perkuliahan dilaksanakan secara praktik</p>
+                    </div>
+                </div>
             </div>
         </div>
     )
