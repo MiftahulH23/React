@@ -1,9 +1,6 @@
 const Navbar = ({props}) => {
     return(
         <div>
-            <style>
-                @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200&display=swap');
-            </style>
             <nav className="flex justify-between px-10 items-center border-b-2 py-2 h-[64px] mt-[22px]">
                 <div className="flex">
                     <div className="w-[180px] h-[29px] overflow-hidden mb-[29px] mt-[10px]">
