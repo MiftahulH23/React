@@ -1,10 +1,11 @@
+import logo from '../assets/images/logo.png'
 const Navbar = ({props}) => {
     return(
         <div>
             <nav className="flex justify-between px-10 items-center border-b-2 py-2 h-[64px] mt-[22px]">
                 <div className="flex">
                     <div className="w-[180px] h-[29px] overflow-hidden mb-[29px] mt-[10px]">
-                        <img src="/images/logo.png" alt="logo" className="object-cover"/>
+                        <img src={logo} alt="logo" className="object-cover"/>
                     </div>
                     <ul className="pl-12 flex gap-4 mb-[39px] mt-[15px]">
                         <li> <a href="">Beranda</a></li>
