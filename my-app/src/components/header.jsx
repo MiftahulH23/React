@@ -2,7 +2,7 @@ import logo from '../assets/images/logo.png'
 const Navbar = ({props}) => {
     return(
         <div>
-            <nav className="flex justify-between px-10 items-center border-b-2 py-2 h-[64px] mt-[22px]">
+            <nav className="container mx-auto flex justify-between px-10 items-center border-b-2 py-2 h-[64px] mt-[22px]">
                 <div className="flex">
                     <div className="w-[180px] h-[29px] overflow-hidden mb-[29px] mt-[10px]">
                         <img src={logo} alt="logo" className="object-cover"/>
@@ -25,7 +25,7 @@ const Navbar = ({props}) => {
 
 const JudulCaption = () => {
     return (
-        <div className="flex gap-1 px-[50px]">
+        <div className="container mx-auto grid grid-cols-2 gap-1 px-[50px]">
             {/* Kiri */}
             <div className="mt-[92px]">
                 <div className="w-[140px] h-[36px] bg-[#e9eef0] rounded-[8px] flex items-center justify-center">

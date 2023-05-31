@@ -29,12 +29,12 @@ const Card = (props) => {
 
 const Content = () => {
     return(
-        <div>
+        <div className="container mx-auto">
             <Judul />
             <div className="grid grid-cols-3">
                 <Card title = "Politeknik Caltex Laksanakan Kegiatan Workshop" />
                 <Card title = "Pengumuman Penerima Beasiswa Provinsi Riau" />
-                <Card title = "Prof.Hendriko menjadi Guru Besar Pertama di PCR University" />
+                <Card title = "Prof.Hendriko menjadi Guru Besar Pertama di PCR" />
             </div>
         </div>
     )
