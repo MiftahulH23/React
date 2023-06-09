@@ -98,7 +98,7 @@ const Tes = () => {
     return (
         <div>
             <Berita />
-            <Pegawai />
+            {/* <Pegawai /> */}
         </div>
     )
 }
